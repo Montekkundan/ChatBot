@@ -13,7 +13,7 @@ def bag_of_words(tokenized_sentece,all_words):
     bag = np.zeros(len(all_words), dtype=np.float32)
     for index, w in enumerate(all_words):
         if w in tokenized_sentece:
-            bag[index] = 1.0
+            bag[index] = 1
     return bag
 # a = "How are you?"
 # print(a)
