@@ -44,12 +44,13 @@
       ]
     },
     {
-            "tag":"health",
-            "patterns":[
+      "tag":"health",
+      "patterns":[
                 "how are you",
                 "how you",
                 "are you fine?",
-                "are you good"
+                "are you good",
+                "are you"
             ],
             "responses":[
                 "Fine.",
